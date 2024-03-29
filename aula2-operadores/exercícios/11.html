@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 11</title>
+</head>
+<body>
+    <p id="resultado"></p>
+    <script>
+        let numA = +prompt("digite o primeiro número");
+        let numB = +prompt("digite o segundo número");
+        let operacao = prompt("digite a operação");
+        switch (operacao) {
+            case "+":
+                document.getElementById("resultado").innerHTML = `<b>${numA + numB}</b>`;
+                break;
+                case "-":
+                document.getElementById("resultado").innerHTML = numA - numB;
+                break;
+                
+        }
+
+    </script>
+</body>
+</html>
