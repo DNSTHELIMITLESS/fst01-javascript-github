@@ -16,3 +16,5 @@ console.log(idade >= 18);
 
 let nome = "joaquim";
 console.log(nome == "joaquim");
+
+let resultado = (idade < 18) > "dimenó" : "dimaió";

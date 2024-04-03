@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOR</title>
+</head>
+
+<body>
+    <script>
+        for (let i = 0; i < 10; i++) {
+            console.log(i);
+        }
+
+        let somaimpares = 0;
+        let somapares = 0;
+
+        for (let i = 0; i <= 10; i++) {
+            if (i % 2 === 0) {
+                somapares = somapares += i;
+            }
+            else {
+                somaimpares = somaimpares += i;
+            }
+
+            console.log("Soma Impares: " + somaimpares);
+
+            // if (i === 5) {
+            //     break;
+            // }
+
+            // if (i === 3) {
+            //     continue;
+            // }
+
+            // console.log(i);
+
+        }
+    </script>
+</body>
+
+</html>
