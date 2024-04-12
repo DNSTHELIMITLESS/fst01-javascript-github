@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Elabore um programa que receba o nome do usuário e o seu gênero da seguinte forma:
+    [ M ] para masculino
+    [ F ] para feminino
+    [ O ] outro
+    [ N ] não responder
+
+    Exiba uma mensagem final da seguinte forma:
+    “Olá, Fulano! Você escolheu a seguinte opção de gênero: M” -->
+
+    <script>
+        const nome = prompt("Digite seu nome: ");
+        const genero = prompt("Digite o seu gênero [M] para masculino, [F] para feminino, [O] para outro, [N] para não responder: ");
+
+        console.log(`Olá, ${nome}! Você escolheu a seguinte opção de gênero: ${genero}`);
+    </script>
+</body>
+
+</html>
